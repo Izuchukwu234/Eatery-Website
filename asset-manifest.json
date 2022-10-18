@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Eatery-Website/static/css/main.fba63a81.css",
+    "main.js": "/Eatery-Website/static/js/main.aa004e96.js",
+    "static/js/787.ba73a1c1.chunk.js": "/Eatery-Website/static/js/787.ba73a1c1.chunk.js",
+    "static/media/logo.png": "/Eatery-Website/static/media/logo.5e716dba69ffdf26c6e4.png",
+    "static/media/Bitterleaf.jpg": "/Eatery-Website/static/media/Bitterleaf.e87adfd848fcd902f98c.jpg",
+    "static/media/Ogbono.jpg": "/Eatery-Website/static/media/Ogbono.0529f22e0bd1fd25c483.jpg",
+    "static/media/Banner.jpg": "/Eatery-Website/static/media/Banner.b16d46b47bbe64ceae7b.jpg",
+    "static/media/White.jpg": "/Eatery-Website/static/media/White.c5da268430e68d13f568.jpg",
+    "static/media/Rice.jpg": "/Eatery-Website/static/media/Rice.eab1bfa5ac50d152deaf.jpg",
+    "index.html": "/Eatery-Website/index.html",
+    "main.fba63a81.css.map": "/Eatery-Website/static/css/main.fba63a81.css.map",
+    "main.aa004e96.js.map": "/Eatery-Website/static/js/main.aa004e96.js.map",
+    "787.ba73a1c1.chunk.js.map": "/Eatery-Website/static/js/787.ba73a1c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fba63a81.css",
+    "static/js/main.aa004e96.js"
+  ]
+}
