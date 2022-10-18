@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+:root
+{
+  --primary-color: #0c092f;
+  --secondary-color: #2D5Efd;
+  --tertiary-color: #f3f3f3;
+}
+
+p, h1, h2, h3, h4, h5, h6, span
+{
+  color: var(--primary-color);
+}
+
+button:focus
+{
+  outline: none !important;
+  border: none !important;
+  box-shadow: none;
+}
+
+.p-100
+{
+  padding: 100px 0;
+}
+
+.gradient
+{
+  background-color: rgba(249, 249, 249);
+  background: linear-gradient(90deg, rgba(249, 249, 249, 1), rgba(24, 184, 241), rgba(109, 0, 250, 1));
+}
+
+.logo
+{
+  font-family: 'Satisfy', sans-serif;
+  color: var(--primary-color);
+  margin-left: 4px;
+  font-weight: 800;
+}
+
+.navbar-nav .nav-item .nav-link:hover
+{
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+}
+
+.navbar-nav .nav-item .nav-link i
+{
+  color: var(--secondary-color);
+}
+
+.navbar-nav .nav-item .nav-link:hover i
+{
+  color: var(--tertiary-color);
+}
+
+.banner
+{
+  animation: move 5s linear infinite;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+@keyframes move
+{
+  0%, 100%
+  {
+    bottom: 0;
+  }
+  50%
+  {
+    bottom: 20px;
+  }
+}
+
+.about-icons i
+{
+  padding-right: 0.6rem;
+  font-size: 24px;
+}
+
+.card, p
+{
+  color: var(--primary-color);
+}
+
+.card i
+{
+  font-size: 3rem;
+  color: var(--secondary-color);
+}
+
+.card:hover
+{
+  background-color: rgba(249, 249, 249);
+  background: linear-gradient(90deg, rgba(249, 249, 249, 1), rgba(24, 184, 241), rgba(109, 0, 250, 1));
+  border: none;
+}
+
+.card:hover i,
+.card:hover p
+{
+  color: var(--tertiary-color);
+}
+
+#contact form
+{
+  padding: 3rem;
+}
+
+footer
+{
+  text-align: center;
+}
